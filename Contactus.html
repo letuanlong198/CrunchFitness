@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title> Crunch Fitness </title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Ubuntu&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+  <style>
+    h1
+    { font-size: 300%;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    color: White;  }
+
+    h2
+    { font-size: 200%;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: Black;  }
+
+    p
+    { font-size: 100%;
+    text-align: left;
+    padding-right: 700px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: White; }
+
+    button
+    { width: 200px;
+    height: 50px;
+    margin-bottom: 180px;
+    margin-right: 100%;}
+
+    a
+    { margin-left: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Ubuntu', sans-serif; }
+
+    .footer
+    {position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;}
+
+    .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    color: orange;
+}
+
+.fa-facebook {
+  background: #272727;
+  color: white;
+}
+
+.fa-twitter {
+  background: #272727;
+  color: white;
+}
+
+.fa-youtube {
+  background: #272727;
+  color: white;
+}
+
+.fa-instagram {
+  background: #272727;
+  color: white;
+}
+
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+  </style>
+<!-- close head -->
+
+<!-- start body -->
+<body>
+
+<!-- start navbar -->
+  <nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="crunch.html" style="margin-left: 70px">
+    <img src="code images/logo.png" alt="logo" style="width: 60px">
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav ml-auto" style="margin-right: 70px;">
+    <li class="nav-item">
+      <a class="nav-link" href="crunch.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Gallery.html">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Contactus.html">Contact us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Login.html">Login</a>
+    </li>
+  </ul>
+</nav>
+<!-- close navbar -->
+
+<section style="background-color: orange;">
+     <br>
+     <br>
+     <h1 style="color: White; text-align: center; padding: 0; margin-bottom: 0;">Contact us</h1>
+     <br>
+     <br>
+</section>
+
+<br>
+
+<!-- contact form -->
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <img src="code images/z1.jpg" width="500" height="620">
+    </div>
+    
+    <div class="col">
+      <form action="action_page.php">
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<!-- footer -->
+<section>
+  <div class="footer" style="background-color: Black">
+     <br>
+     <br>
+     <p style="color: White; text-align: center; padding: 0; margin-bottom: 0; font-size: 100%">CRUNCH FITTNESS</p>
+   <p style="color: Gray; text-align: center; padding: 0; margin-bottom: 0;  font-size: 70%">ALL RIGHTS RESERVED.</p>
+     <br>
+     <br>
+    </div>
+
+    <div class="footer" style="background-color: #272727">    
+     <!-- Add font awesome icons -->
+     <a href="https://www.facebook.com/CRUNCH/" class="fa fa-facebook"></a>
+     <a href="https://twitter.com/crunchgym/" class="fa fa-twitter"></a>
+     <a href="https://www.youtube.com/crunch" class="fa fa-youtube"></a>
+     <a href="https://www.instagram.com/crunchgym/" class="fa fa-instagram"></a>
+    </div>
+</section>
+<!-- footer end -->
+</html>
